@@ -1,5 +1,5 @@
 package dsa;
-// i did it by myself and it takes O(n*n) complexity as it involves 2 loops. Optimised version should use HashMap
+// takes O(n*n) complexity as it involves 2 loops. Optimised version should use HashMap
 public class TwoSumBruteForce{
 public static int[] twoSum(int[] arr,int target) {
 	int[] resArray=new int[2];
